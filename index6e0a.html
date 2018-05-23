@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="en"
+  xml:base="http://www.harmonyst.org/blog/wp-atom.php"
+   >
+	<title type="text">harmonyst.org</title>
+	<subtitle type="text">Adam Papendieck - Harmony St. Projects</subtitle>
+
+	<updated>2013-06-11T20:08:02Z</updated>
+	<generator uri="http://wordpress.org/" version="2.7">WordPress</generator>
+
+	<link rel="alternate" type="text/html" href="http://www.harmonyst.org/blog" />
+	<id>http://www.harmonyst.org/blog/?feed=atom</id>
+	<link rel="self" type="application/atom+xml" href="http://www.harmonyst.org/blog/?feed=atom" />
+
+			<entry>
+		<author>
+			<name>Adam</name>
+					</author>
+		<title type="html"><![CDATA[Easy and Free: SMS to Google Map]]></title>
+		<link rel="alternate" type="text/html" href="http://www.harmonyst.org/blog/?p=78" />
+		<id>http://www.harmonyst.org/blog/?p=78</id>
+		<updated>2009-04-09T23:23:30Z</updated>
+		<published>2009-04-09T22:36:26Z</published>
+		<category scheme="http://www.harmonyst.org/blog" term="Notes" />		<summary type="html"><![CDATA[&#8220;SMS to Twitter to Yahoo Pipes to Google Map&#8221;
+This map will display New Orleans street addresses sent via SMS messages on a Google Map, automated and in real time.  The system uses Yahoo Pipes to monitor Twitter hash tags for certain users, parse the address (number and street is all that is necessary) sent by [...]]]></summary>
+		<content type="html" xml:base="http://www.harmonyst.org/blog/?p=78"><![CDATA[<p><strong>&#8220;SMS to Twitter to Yahoo Pipes to Google Map&#8221;</strong></p>
+<p>This map will display New Orleans street addresses sent via SMS messages on a Google Map, automated and in real time.  The system uses Yahoo Pipes to monitor Twitter hash tags for certain users, parse the address (number and street is all that is necessary) sent by the user and render the on a map.</p>
+<ol>
+<li>The user sends an SMS like this: &#8220;#dumping 4200 Dauphine&#8221; to their twitter account.</li>
+<li>A yahoo pipe monitors the user&#8217;s twitter feed and imports tweets tagged with &#8220;#dumping&#8221;.</li>
+<li>The Yahoo pipe then updates the city/state/zip and geocodes the tweet feed.</li>
+<li>The geocoded feed is then picked for display, for instance, on this Google Map below.</li>
+<li>Yahoo pipes is also capable of notifying users any time a new item is appears in the twitter feed, thus establishing a real time feedback loop .</li>
+</ol>
+<p>Applications: neighborhood resident reporting of illegal dumping, potholes, streetlight outages, crime etc.  Users just need a simple cell phone and a free twitter account.  Their usernames can the be added to the pipe/map and anything tagged, for instance, with the &#8220;#dumping&#8221; tag would display on the Illegal Dumping Map.  Could also do #crime and #street tags.</p>
+<p><strong>Illegal Dumping in New Orleans</strong><iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=http:%2F%2Fpipes.yahoo.com%2Fpipes%2Fpipe.run%3F_id%3Dfb6f45af27b50ff99269afcca458bc63%26_render%3Dkml&amp;ie=UTF8&amp;ll=29.957612,-90.10025&amp;spn=0.104109,0.145912&amp;z=12&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=http:%2F%2Fpipes.yahoo.com%2Fpipes%2Fpipe.run%3F_id%3Dfb6f45af27b50ff99269afcca458bc63%26_render%3Dkml&amp;ie=UTF8&amp;ll=29.957612,-90.10025&amp;spn=0.104109,0.145912&amp;z=12" style="color:#0000FF;text-align:left">View Larger Map</a></small></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.harmonyst.org/blog/?p=78#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.harmonyst.org/blog/?feed=atom&amp;p=78" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Adam</name>
+					</author>
+		<title type="html"><![CDATA[Twitter Map]]></title>
+		<link rel="alternate" type="text/html" href="http://www.harmonyst.org/blog/?p=69" />
+		<id>http://www.harmonyst.org/blog/?p=69</id>
+		<updated>2009-04-07T20:01:07Z</updated>
+		<published>2009-04-07T19:49:47Z</published>
+		<category scheme="http://www.harmonyst.org/blog" term="Notes" />		<summary type="html"><![CDATA[Example Twitter Map Badge from Yahoo Pipes.  The search is for the term &#8220;earthquake&#8221; within 500 miles of Rome.
+
+]]></summary>
+		<content type="html" xml:base="http://www.harmonyst.org/blog/?p=69"><![CDATA[<p>Example Twitter Map Badge from Yahoo Pipes.  The search is for the term &#8220;earthquake&#8221; within 500 miles of Rome.</p>
+<p><script src="http://pipes.yahoo.com/js/mapbadge.js"><!--
+{"pipe_id":"rkBXP8ME3hG6tkb_pgt1Yg","_btype":"map","pipe_params":{"url":"http:\/\/search.twitter.com\/search.atom?q=quake"}}
+// --></script></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.harmonyst.org/blog/?p=69#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.harmonyst.org/blog/?feed=atom&amp;p=69" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Adam</name>
+					</author>
+		<title type="html"><![CDATA[Modifying / Customizing Yahoo Pipes Badges]]></title>
+		<link rel="alternate" type="text/html" href="http://www.harmonyst.org/blog/?p=68" />
+		<id>http://www.harmonyst.net/blog/?p=68</id>
+		<updated>2008-09-09T22:51:29Z</updated>
+		<published>2008-09-09T22:51:29Z</published>
+		<category scheme="http://www.harmonyst.org/blog" term="Notes" />		<summary type="html"><![CDATA[http://pipes.yahoo.com/pipes/badgedocs
+]]></summary>
+		<content type="html" xml:base="http://www.harmonyst.org/blog/?p=68"><![CDATA[<p>http://pipes.yahoo.com/pipes/badgedocs</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.harmonyst.org/blog/?p=68#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.harmonyst.org/blog/?feed=atom&amp;p=68" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Adam</name>
+					</author>
+		<title type="html"><![CDATA[Fibre for Africa]]></title>
+		<link rel="alternate" type="text/html" href="http://www.harmonyst.org/blog/?p=66" />
+		<id>http://www.harmonyst.net/blog/?p=66</id>
+		<updated>2008-08-15T21:46:25Z</updated>
+		<published>2008-08-15T21:46:24Z</published>
+		<category scheme="http://www.harmonyst.org/blog" term="Notes" /><category scheme="http://www.harmonyst.org/blog" term="africa" /><category scheme="http://www.harmonyst.org/blog" term="hosting" />		<summary type="html"><![CDATA[http://fibreforafrica.net
+]]></summary>
+		<content type="html" xml:base="http://www.harmonyst.org/blog/?p=66"><![CDATA[<p>http://fibreforafrica.net</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.harmonyst.org/blog/?p=66#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.harmonyst.org/blog/?feed=atom&amp;p=66" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Adam</name>
+					</author>
+		<title type="html"><![CDATA[Network Startup Resource Center]]></title>
+		<link rel="alternate" type="text/html" href="http://www.harmonyst.org/blog/?p=64" />
+		<id>http://www.harmonyst.net/blog/?p=64</id>
+		<updated>2008-08-15T21:40:50Z</updated>
+		<published>2008-08-15T21:40:42Z</published>
+		<category scheme="http://www.harmonyst.org/blog" term="Notes" /><category scheme="http://www.harmonyst.org/blog" term="africa" /><category scheme="http://www.harmonyst.org/blog" term="hosting" />		<summary type="html"><![CDATA[a non-profit organization that has worked since the late
+1980s to help develop and deploy networking technology in various
+projects throughout Asia/Pacific, Africa, Latin America and the
+Caribbean, the Middle East, and the New Independent States.
+http://www.nsrc.org/ 
+]]></summary>
+		<content type="html" xml:base="http://www.harmonyst.org/blog/?p=64"><![CDATA[<p><font size="2">a non-profit organization that has worked since the late<br />
+1980s to help develop and deploy networking technology in various<br />
+projects throughout Asia/Pacific, Africa, Latin America and the<br />
+Caribbean, the Middle East, and the New Independent States.</p>
+<p>http://www.nsrc.org/<br /> </font></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.harmonyst.org/blog/?p=64#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.harmonyst.org/blog/?feed=atom&amp;p=64" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Adam</name>
+					</author>
+		<title type="html"><![CDATA[The African Internet - A 2001 Status Report]]></title>
+		<link rel="alternate" type="text/html" href="http://www.harmonyst.org/blog/?p=62" />
+		<id>http://www.harmonyst.net/blog/?p=62</id>
+		<updated>2008-08-15T21:31:10Z</updated>
+		<published>2008-08-15T21:31:05Z</published>
+		<category scheme="http://www.harmonyst.org/blog" term="Notes" />		<summary type="html"><![CDATA[Two-way satellite-based Internet services using very small apertureterminals (VSAT) to connect directly the US or Europe have also beenquickly adopted where ever regulations allow. Namely in DRC, Ghana,Mozambique, Nigeria, Tanzania, Uganda and Zambia which all have ISPsthat are not dependent on the monopoly telecom operator for theirinternational bandwidth. 
+http://www.digitaldivide.net/articles/view.php?ArticleID=322
+]]></summary>
+		<content type="html" xml:base="http://www.harmonyst.org/blog/?p=62"><![CDATA[<p>Two-way satellite-based Internet services using very small aperture<br />terminals (VSAT) to connect directly the US or Europe have also been<br />quickly adopted where ever regulations allow. Namely in DRC, Ghana,<br />Mozambique, Nigeria, Tanzania, Uganda and Zambia which all have ISPs<br />that are not dependent on the monopoly telecom operator for their<br />international bandwidth. </p>
+<p><a href="http://www.digitaldivide.net/articles/view.php?ArticleID=322">http://www.digitaldivide.net/articles/view.php?ArticleID=322</a></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.harmonyst.org/blog/?p=62#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.harmonyst.org/blog/?feed=atom&amp;p=62" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Adam</name>
+					</author>
+		<title type="html"><![CDATA[MyExperience]]></title>
+		<link rel="alternate" type="text/html" href="http://www.harmonyst.org/blog/?p=60" />
+		<id>http://www.harmonyst.net/blog/?p=60</id>
+		<updated>2008-08-13T18:16:46Z</updated>
+		<published>2008-08-13T18:16:31Z</published>
+		<category scheme="http://www.harmonyst.org/blog" term="Notes" /><category scheme="http://www.harmonyst.org/blog" term="PDAs" />		<summary type="html"><![CDATA[MyExperience may be an open source option for PDA-based data collection. It is a BSD-licensed open source mobile data collection tool developed
+                for Windows Mobile devices (including 
+             [...]]]></summary>
+		<content type="html" xml:base="http://www.harmonyst.org/blog/?p=60"><![CDATA[<p>MyExperience may be an open source option for PDA-based data collection. It is a BSD-licensed open source mobile data collection tool developed<br />
+                for Windows Mobile devices (including <a href="http://www.microsoft.com/windowsmobile/pocketpc/default.mspx"><br />
+                    PDAs</a> and <a href="http://www.microsoft.com/windowsmobile/smartphone/default.mspx"><br />
+                        mobile phones</a>) using .NET CF 2 and Microsoft SQL Compact Edition. MyExperience<br />
+                is available for free on SourceForge in <a href="http://sourceforge.net/project/showfiles.php?group_id=188488"><br />
+                    beta release.</a></p>
+<p>http://myexperience.sourceforge.net/</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.harmonyst.org/blog/?p=60#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.harmonyst.org/blog/?feed=atom&amp;p=60" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Adam</name>
+					</author>
+		<title type="html"><![CDATA[The Hoffman Triangle Neighborhood Knowledge Center]]></title>
+		<link rel="alternate" type="text/html" href="http://www.harmonyst.org/blog/?p=52" />
+		<id>http://www.harmonyst.net/blog/?p=52</id>
+		<updated>2008-08-11T22:00:24Z</updated>
+		<published>2008-08-11T22:00:16Z</published>
+		<category scheme="http://www.harmonyst.org/blog" term="Notes" /><category scheme="http://www.harmonyst.org/blog" term="Knowledge Centers" /><category scheme="http://www.harmonyst.org/blog" term="New Orleans" />		<summary type="html"><![CDATA[http://hoffmantriangle.org/
+For people and organizations living and working in the Hoffman Triangle Neighborhood of New Orleans.
+]]></summary>
+		<content type="html" xml:base="http://www.harmonyst.org/blog/?p=52"><![CDATA[<p><a href="http://hoffmantriangle.org/">http://hoffmantriangle.org/</a></p>
+<p>For people and organizations living and working in the Hoffman Triangle Neighborhood of New Orleans.</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.harmonyst.org/blog/?p=52#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.harmonyst.org/blog/?feed=atom&amp;p=52" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Adam</name>
+					</author>
+		<title type="html"><![CDATA[Success Measures Indicators]]></title>
+		<link rel="alternate" type="text/html" href="http://www.harmonyst.org/blog/?p=38" />
+		<id>http://harmonyst.net/wordpress/?p=38</id>
+		<updated>2007-04-03T15:03:48Z</updated>
+		<published>2007-04-03T15:03:42Z</published>
+		<category scheme="http://www.harmonyst.org/blog" term="Uncategorized" />		<summary type="html"><![CDATA[Success Measures have posted an outline of their program here, inlcuding a list of their 44 indicators:
+I. AFFORDABLE HOUSING INDICATORS 
+Set 1.&#160; Measuring Benefits to Residents of New and Rehabilitated Housing H 1. Monthly Housing Cost and Affordability H 2. Quality of Housing H 3. Wealth Creation through Homeownership H 4. Environmentally Sustainable Design and [...]]]></summary>
+		<content type="html" xml:base="http://www.harmonyst.org/blog/?p=38"><![CDATA[<p>Success Measures have posted an outline of their program <a href="http://www.nw.org/Network/comstrat/measuringWhatMatters/documents/SuccessMeasuresProgramOverview.pdf">here</a>, inlcuding a list of their 44 indicators:</p>
+<p><b>I. AFFORDABLE HOUSING INDICATORS </b></p>
+<p><b>Set 1.&nbsp; Measuring Benefits to Residents of New and Rehabilitated Housing </b><br />H 1. Monthly Housing Cost and Affordability <br />H 2. Quality of Housing <br />H 3. Wealth Creation through Homeownership <br />H 4. Environmentally Sustainable Design and Construction <br />H 5. Personal Effectiveness and Stability </p>
+<p><b>Set 2.&nbsp; Measuring Benefits to Community </b><br />H 6. Sense of Community <br />H 7. Visual Attractiveness of the Neighborhood <br />H 8. Community Use of Public Space <br />H 9. Neighborhood Security <br />H10.&nbsp; Property Values ­­ Residential <br />H11.&nbsp; Share of Owner­Occupied Homes </p>
+<p><b>Set 3.&nbsp; Measuring Benefits to Municipality and Society </b><br />H12.&nbsp; Local Economic Impact <br />H13.&nbsp; Duration of Residency and Resident Stability <br />H14.&nbsp; Diversity of Incomes and of Housing Values and Types </p>
+<p><b>II. COMMUNITY BUILDING INDICATORS</b> </p>
+<p><b>Set 1.&nbsp; Community and Organizational Capacity </b><br />C 1. Awareness of Community and Organization’s Effort <br />C 2. Participation in Community Organizations <br />C 3. Organizational Capacity for Developing Community Leaders <br />C 4. Organizations Involved in Community Building Initiatives and Resources Committed <br />C 5. Accountability to the Community <br />C 6. Awareness and Understanding of Community Issues <br />C 7. Capacity for Collective Action <br />C 8. Collaboration Achieving Economies of Scale and Scope </p>
+<p><b>Set 2.&nbsp;&nbsp;&nbsp; Social Relationships and Networks </b><br />C 9. Resident Satisfaction with Neighborhood <br />C10.&nbsp; Sense of Social Cohesion <br />C11.&nbsp; Personal and Social Networks <br />C12.&nbsp; Links Across Race and Ethnicity <br />C 13.&nbsp; Constructive Working Relationships among Individuals/Organizations in Community Building <br />C14.&nbsp; Collaboration Promoting Shared Values</p>
+<p><b>Set 3.&nbsp;&nbsp;&nbsp; Community Economic and Political Influence </b><br />C15.&nbsp; Evidence of Community Power <br />C16.&nbsp; Voting Rates <br />C17.&nbsp; Leadership for Change: Extent of Leadership <br />C18.&nbsp; External Perception of Neighborhood <br />C19.&nbsp; Public Services <br />C20.&nbsp; Private Investment <br />C21.&nbsp; Healthy Environment <br />C22.&nbsp; Racial Equity </p>
+<p><b>III. ECONOMIC DEVELOPMENT INDICATORS </b></p>
+<p><b>Set 1.&nbsp; Measuring Benefits of Neighborhood­Based Business Support Programs </b><br />E 1. Business Size, Type and Profitability <br />E 2. Job Creation and Preservation </p>
+<p><b>Set 2.&nbsp; Measuring Benefits of Job Training Programs </b><br />E 3. Employment and Income from Job Training <br />E 4. Trainee Evaluation of Job Training and Placement <br />E 5. Skills Acquisition – Basic Job Readiness </p>
+<p><b>Set 3.&nbsp; Measuring Contributions to Community </b><br />E 6. Attractiveness of Business District <br />E 7. Extent to Which Basic Community Needs Are Met By Local Businesses <br />E 8. Local Business Support of and Participation in Community</p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.harmonyst.org/blog/?p=38#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.harmonyst.org/blog/?feed=atom&amp;p=38" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Adam</name>
+					</author>
+		<title type="html"><![CDATA[Various parameters of the Success Measures system]]></title>
+		<link rel="alternate" type="text/html" href="http://www.harmonyst.org/blog/?p=37" />
+		<id>http://harmonyst.net/wordpress/?p=37</id>
+		<updated>2007-04-03T15:13:20Z</updated>
+		<published>2007-04-03T14:54:48Z</published>
+		<category scheme="http://www.harmonyst.org/blog" term="Uncategorized" />		<summary type="html"><![CDATA[Success Measures is based on a Participatory Evaluation Approach.&#160; The idea is to collect data on smart outcomes and build an outcome chain to produce a narrative of change.
+Indicators Sets:Affordable HousingEconomic DevelopmentCommunity-buildingNew Tools
+Levels of Change:PersonalNeighborhoodBroader CommunityThe Success Measures package includes:A participatory outcome-based evaluation approachSet of indicators and validated data collection instrumentsWeb-based data management systemRegional and [...]]]></summary>
+		<content type="html" xml:base="http://www.harmonyst.org/blog/?p=37"><![CDATA[<div><a href="http://www.successmeasures.org/">Success Measures</a> is based on a Participatory Evaluation Approach.&nbsp; The idea is to collect data on smart outcomes and build an <i>outcome chain</i> to produce a <i>narrative of change</i>.</p>
+<p><b>Indicators Sets:</b><br />Affordable Housing<br />Economic Development<br />Community-building<br />New Tools</p>
+<p><b>Levels of Change:</b><br />Personal<br />Neighborhood<br />Broader Community<br /><b><br />The Success Measures package includes:</b><br />A participatory outcome-based evaluation approach<br />Set of indicators and validated data collection instruments<br />Web-based data management system<br />Regional and customer training</p>
+<p></div>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.harmonyst.org/blog/?p=37#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.harmonyst.org/blog/?feed=atom&amp;p=37" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+	</feed>
